@@ -13,7 +13,7 @@ import os
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'alex.mwaleh@andela.com'
-EMAIL_HOST_PASSWORD = os.getenv('EMAIL_PWD')#'Dream20y?'
+EMAIL_HOST_PASSWORD = os.getenv('EMAIL_PWD')
 EMAIL_PORT = 587
 
 

@@ -17,4 +17,4 @@ def thankyou(request):
 	to_list =['alexmuturi@gmail.com','alex.mwaleh@andela.com']
 	send_mail ( subject, message,from_email,to_list, fail_silently=False)
 	messages.success(request,'Thank you')
-	return HttpResponse(messages.success(request,'Thank you'))
+	return HttpResponse("message sent")
